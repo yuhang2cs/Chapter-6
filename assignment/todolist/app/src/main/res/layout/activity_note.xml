@@ -15,6 +15,18 @@
         android:gravity="start|top"
         android:padding="4dp"
         android:textColor="#1e1e1e" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择任务的优先级：(默认为LOW)"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:entries="@array/spinner_priority"
+        android:id="@+id/priority"
+        android:spinnerMode="dialog"
+        />
 
     <Button
         android:id="@+id/btn_add"

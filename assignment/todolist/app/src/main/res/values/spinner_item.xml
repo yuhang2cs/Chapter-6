@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="spinner_priority">
+    <item>LOW</item>
+    <item>MID</item>
+    <item>HIGH</item>
+</string-array>
+</resources>
